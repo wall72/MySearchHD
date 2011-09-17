@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46384FD413B8C6DF00F76854 /* bing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46384FD213B8C6DF00F76854 /* bing-icon.png */; };
+		46384FD513B8C6DF00F76854 /* google-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46384FD313B8C6DF00F76854 /* google-icon.png */; };
+		463CA14A13A641EA00F2F93C /* SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 463CA14913A641EA00F2F93C /* SearchItem.m */; };
+		463CA17113A65F5000F2F93C /* button-icon-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16B13A65F5000F2F93C /* button-icon-arrow-left.png */; };
+		463CA17313A65F5000F2F93C /* button-icon-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16D13A65F5000F2F93C /* button-icon-arrow-right.png */; };
+		463CA17513A65F5000F2F93C /* button-icon-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16F13A65F5000F2F93C /* button-icon-refresh.png */; };
+		463CA17913A662CD00F2F93C /* button-icon-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA17713A662CD00F2F93C /* button-icon-gear.png */; };
+		4678B68F13C0537100FAB03D /* MySearchHDIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678B68E13C0537100FAB03D /* MySearchHDIcon.png */; };
+		46D1E85913B63E5B004B1AA6 /* button-icon-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */; };
+		5579FA2B13A8CB10008772F9 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5579FA2913A8CB10008772F9 /* ShareViewController.m */; };
+		5579FA2C13A8CB10008772F9 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5579FA2A13A8CB10008772F9 /* ShareView.xib */; };
+		55CBE52B13AA1AD200AF1AEB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CBE52A13AA1AD200AF1AEB /* MessageUI.framework */; };
+		55CBE52E13AA1AD800AF1AEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CBE52D13AA1AD800AF1AEB /* QuartzCore.framework */; };
+		55DBAD9413A611B900D370AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBAD9313A611B900D370AC /* UIKit.framework */; };
+		55DBAD9613A611B900D370AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBAD9513A611B900D370AC /* Foundation.framework */; };
+		55DBAD9813A611B900D370AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBAD9713A611B900D370AC /* CoreGraphics.framework */; };
+		55DBAD9A13A611B900D370AC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBAD9913A611B900D370AC /* CoreData.framework */; };
+		55DBADA013A611B900D370AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55DBAD9E13A611B900D370AC /* InfoPlist.strings */; };
+		55DBADA313A611B900D370AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADA213A611B900D370AC /* main.m */; };
+		55DBADA613A611B900D370AC /* MySearchHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADA513A611B900D370AC /* MySearchHDAppDelegate.m */; };
+		55DBADA913A611B900D370AC /* MySearchHD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADA713A611B900D370AC /* MySearchHD.xcdatamodeld */; };
+		55DBADAC13A611B900D370AC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DBADAA13A611B900D370AC /* MainWindow.xib */; };
+		55DBADAF13A611B900D370AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADAE13A611B900D370AC /* DetailViewController.m */; };
+		55DBADB213A611B900D370AC /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DBADB013A611B900D370AC /* DetailView.xib */; };
+		55DBADB513A611B900D370AC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADB413A611B900D370AC /* RootViewController.m */; };
+		55DBADCD13A6188900D370AC /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DBADCB13A6188900D370AC /* EditViewController.m */; };
+		55DBADCE13A6188900D370AC /* EditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DBADCC13A6188900D370AC /* EditView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46384FD213B8C6DF00F76854 /* bing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bing-icon.png"; sourceTree = "<group>"; };
+		46384FD313B8C6DF00F76854 /* google-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon.png"; sourceTree = "<group>"; };
+		463CA14813A641EA00F2F93C /* SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItem.h; sourceTree = "<group>"; };
+		463CA14913A641EA00F2F93C /* SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItem.m; sourceTree = "<group>"; };
+		463CA16B13A65F5000F2F93C /* button-icon-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-arrow-left.png"; sourceTree = "<group>"; };
+		463CA16D13A65F5000F2F93C /* button-icon-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-arrow-right.png"; sourceTree = "<group>"; };
+		463CA16F13A65F5000F2F93C /* button-icon-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-refresh.png"; sourceTree = "<group>"; };
+		463CA17713A662CD00F2F93C /* button-icon-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-gear.png"; sourceTree = "<group>"; };
+		4678B68E13C0537100FAB03D /* MySearchHDIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MySearchHDIcon.png; sourceTree = SOURCE_ROOT; };
+		46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-globe.png"; sourceTree = "<group>"; };
+		5579FA2813A8CB10008772F9 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = ../../MySearchHD/MySearchHD/ShareViewController.h; sourceTree = "<group>"; };
+		5579FA2913A8CB10008772F9 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = ../../MySearchHD/MySearchHD/ShareViewController.m; sourceTree = "<group>"; };
+		5579FA2A13A8CB10008772F9 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShareView.xib; path = ../../MySearchHD/MySearchHD/ShareView.xib; sourceTree = "<group>"; };
+		55CBE52A13AA1AD200AF1AEB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		55CBE52D13AA1AD800AF1AEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55DBAD8F13A611B900D370AC /* MySearchHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySearchHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBAD9313A611B900D370AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55DBAD9513A611B900D370AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55DBAD9713A611B900D370AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55DBAD9913A611B900D370AC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55DBAD9D13A611B900D370AC /* MySearchHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySearchHD-Info.plist"; sourceTree = "<group>"; };
+		55DBAD9F13A611B900D370AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55DBADA113A611B900D370AC /* MySearchHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySearchHD-Prefix.pch"; sourceTree = "<group>"; };
+		55DBADA213A611B900D370AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55DBADA413A611B900D370AC /* MySearchHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySearchHDAppDelegate.h; sourceTree = "<group>"; };
+		55DBADA513A611B900D370AC /* MySearchHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySearchHDAppDelegate.m; sourceTree = "<group>"; };
+		55DBADA813A611B900D370AC /* MySearchHD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySearchHD.xcdatamodel; sourceTree = "<group>"; };
+		55DBADAB13A611B900D370AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		55DBADAD13A611B900D370AC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		55DBADAE13A611B900D370AC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55DBADB113A611B900D370AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		55DBADB313A611B900D370AC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		55DBADB413A611B900D370AC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		55DBADCA13A6188900D370AC /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		55DBADCB13A6188900D370AC /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		55DBADCC13A6188900D370AC /* EditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DBAD8C13A611B900D370AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CBE52E13AA1AD800AF1AEB /* QuartzCore.framework in Frameworks */,
+				55CBE52B13AA1AD200AF1AEB /* MessageUI.framework in Frameworks */,
+				55DBAD9413A611B900D370AC /* UIKit.framework in Frameworks */,
+				55DBAD9613A611B900D370AC /* Foundation.framework in Frameworks */,
+				55DBAD9813A611B900D370AC /* CoreGraphics.framework in Frameworks */,
+				55DBAD9A13A611B900D370AC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551F9CC813A7590A004701A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4678B68E13C0537100FAB03D /* MySearchHDIcon.png */,
+				463CA16B13A65F5000F2F93C /* button-icon-arrow-left.png */,
+				463CA16D13A65F5000F2F93C /* button-icon-arrow-right.png */,
+				463CA16F13A65F5000F2F93C /* button-icon-refresh.png */,
+				463CA17713A662CD00F2F93C /* button-icon-gear.png */,
+				46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */,
+				46384FD213B8C6DF00F76854 /* bing-icon.png */,
+				46384FD313B8C6DF00F76854 /* google-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		55DBAD8413A611B900D370AC = {
+			isa = PBXGroup;
+			children = (
+				55DBAD9B13A611B900D370AC /* MySearchHD */,
+				55DBAD9213A611B900D370AC /* Frameworks */,
+				55DBAD9013A611B900D370AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DBAD9013A611B900D370AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DBAD8F13A611B900D370AC /* MySearchHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DBAD9213A611B900D370AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DBAD9513A611B900D370AC /* Foundation.framework */,
+				55DBAD9313A611B900D370AC /* UIKit.framework */,
+				55DBAD9713A611B900D370AC /* CoreGraphics.framework */,
+				55CBE52D13AA1AD800AF1AEB /* QuartzCore.framework */,
+				55DBAD9913A611B900D370AC /* CoreData.framework */,
+				55CBE52A13AA1AD200AF1AEB /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55DBAD9B13A611B900D370AC /* MySearchHD */ = {
+			isa = PBXGroup;
+			children = (
+				55DBADA413A611B900D370AC /* MySearchHDAppDelegate.h */,
+				55DBADA513A611B900D370AC /* MySearchHDAppDelegate.m */,
+				55DBADAA13A611B900D370AC /* MainWindow.xib */,
+				55DBADB313A611B900D370AC /* RootViewController.h */,
+				55DBADB413A611B900D370AC /* RootViewController.m */,
+				55DBADCA13A6188900D370AC /* EditViewController.h */,
+				55DBADCB13A6188900D370AC /* EditViewController.m */,
+				55DBADCC13A6188900D370AC /* EditView.xib */,
+				55DBADAD13A611B900D370AC /* DetailViewController.h */,
+				55DBADAE13A611B900D370AC /* DetailViewController.m */,
+				55DBADB013A611B900D370AC /* DetailView.xib */,
+				463CA14813A641EA00F2F93C /* SearchItem.h */,
+				463CA14913A641EA00F2F93C /* SearchItem.m */,
+				5579FA2813A8CB10008772F9 /* ShareViewController.h */,
+				5579FA2913A8CB10008772F9 /* ShareViewController.m */,
+				5579FA2A13A8CB10008772F9 /* ShareView.xib */,
+				55DBADA713A611B900D370AC /* MySearchHD.xcdatamodeld */,
+				55DBAD9C13A611B900D370AC /* Supporting Files */,
+			);
+			path = MySearchHD;
+			sourceTree = "<group>";
+		};
+		55DBAD9C13A611B900D370AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				551F9CC813A7590A004701A5 /* Images */,
+				55DBAD9D13A611B900D370AC /* MySearchHD-Info.plist */,
+				55DBAD9E13A611B900D370AC /* InfoPlist.strings */,
+				55DBADA113A611B900D370AC /* MySearchHD-Prefix.pch */,
+				55DBADA213A611B900D370AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DBAD8E13A611B900D370AC /* MySearchHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DBADB813A611B900D370AC /* Build configuration list for PBXNativeTarget "MySearchHD" */;
+			buildPhases = (
+				55DBAD8B13A611B900D370AC /* Sources */,
+				55DBAD8C13A611B900D370AC /* Frameworks */,
+				55DBAD8D13A611B900D370AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySearchHD;
+			productName = MySearchHD;
+			productReference = 55DBAD8F13A611B900D370AC /* MySearchHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DBAD8613A611B900D370AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "타임교육";
+			};
+			buildConfigurationList = 55DBAD8913A611B900D370AC /* Build configuration list for PBXProject "MySearchHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55DBAD8413A611B900D370AC;
+			productRefGroup = 55DBAD9013A611B900D370AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DBAD8E13A611B900D370AC /* MySearchHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DBAD8D13A611B900D370AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBADA013A611B900D370AC /* InfoPlist.strings in Resources */,
+				55DBADAC13A611B900D370AC /* MainWindow.xib in Resources */,
+				55DBADB213A611B900D370AC /* DetailView.xib in Resources */,
+				55DBADCE13A6188900D370AC /* EditView.xib in Resources */,
+				463CA17113A65F5000F2F93C /* button-icon-arrow-left.png in Resources */,
+				463CA17313A65F5000F2F93C /* button-icon-arrow-right.png in Resources */,
+				463CA17513A65F5000F2F93C /* button-icon-refresh.png in Resources */,
+				463CA17913A662CD00F2F93C /* button-icon-gear.png in Resources */,
+				5579FA2C13A8CB10008772F9 /* ShareView.xib in Resources */,
+				46D1E85913B63E5B004B1AA6 /* button-icon-globe.png in Resources */,
+				46384FD413B8C6DF00F76854 /* bing-icon.png in Resources */,
+				46384FD513B8C6DF00F76854 /* google-icon.png in Resources */,
+				4678B68F13C0537100FAB03D /* MySearchHDIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DBAD8B13A611B900D370AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBADA313A611B900D370AC /* main.m in Sources */,
+				55DBADA613A611B900D370AC /* MySearchHDAppDelegate.m in Sources */,
+				55DBADA913A611B900D370AC /* MySearchHD.xcdatamodeld in Sources */,
+				55DBADAF13A611B900D370AC /* DetailViewController.m in Sources */,
+				55DBADB513A611B900D370AC /* RootViewController.m in Sources */,
+				55DBADCD13A6188900D370AC /* EditViewController.m in Sources */,
+				463CA14A13A641EA00F2F93C /* SearchItem.m in Sources */,
+				5579FA2B13A8CB10008772F9 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55DBAD9E13A611B900D370AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DBAD9F13A611B900D370AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55DBADAA13A611B900D370AC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DBADAB13A611B900D370AC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		55DBADB013A611B900D370AC /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DBADB113A611B900D370AC /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DBADB613A611B900D370AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		55DBADB713A611B900D370AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chang Ho Lee";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27EFC3A0-35D3-41F3-96F3-1C848DAC724C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		55DBADB913A611B900D370AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySearchHD/MySearchHD-Prefix.pch";
+				INFOPLIST_FILE = "MySearchHD/MySearchHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55DBADBA13A611B900D370AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySearchHD/MySearchHD-Prefix.pch";
+				INFOPLIST_FILE = "MySearchHD/MySearchHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DBAD8913A611B900D370AC /* Build configuration list for PBXProject "MySearchHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBADB613A611B900D370AC /* Debug */,
+				55DBADB713A611B900D370AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DBADB813A611B900D370AC /* Build configuration list for PBXNativeTarget "MySearchHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBADB913A611B900D370AC /* Debug */,
+				55DBADBA13A611B900D370AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55DBADA713A611B900D370AC /* MySearchHD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55DBADA813A611B900D370AC /* MySearchHD.xcdatamodel */,
+			);
+			currentVersion = 55DBADA813A611B900D370AC /* MySearchHD.xcdatamodel */;
+			path = MySearchHD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55DBAD8613A611B900D370AC /* Project object */;
+}
