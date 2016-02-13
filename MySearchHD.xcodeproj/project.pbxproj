@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46384FD413B8C6DF00F76854 /* bing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46384FD213B8C6DF00F76854 /* bing-icon.png */; };
-		46384FD513B8C6DF00F76854 /* google-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46384FD313B8C6DF00F76854 /* google-icon.png */; };
 		463CA14A13A641EA00F2F93C /* SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 463CA14913A641EA00F2F93C /* SearchItem.m */; };
 		463CA17113A65F5000F2F93C /* button-icon-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16B13A65F5000F2F93C /* button-icon-arrow-left.png */; };
 		463CA17313A65F5000F2F93C /* button-icon-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16D13A65F5000F2F93C /* button-icon-arrow-right.png */; };
 		463CA17513A65F5000F2F93C /* button-icon-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA16F13A65F5000F2F93C /* button-icon-refresh.png */; };
 		463CA17913A662CD00F2F93C /* button-icon-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 463CA17713A662CD00F2F93C /* button-icon-gear.png */; };
 		4678B68F13C0537100FAB03D /* MySearchHDIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4678B68E13C0537100FAB03D /* MySearchHDIcon.png */; };
+		46B95AAC144AF861004E0E8E /* duck-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B95AA9144AF861004E0E8E /* duck-icon.png */; };
 		46D1E85913B63E5B004B1AA6 /* button-icon-globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */; };
+		46D75616144B1A1C002C44B8 /* bing-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D75614144B1A1C002C44B8 /* bing-icon.png */; };
+		46D75617144B1A1C002C44B8 /* google-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46D75615144B1A1C002C44B8 /* google-icon.png */; };
 		5579FA2B13A8CB10008772F9 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5579FA2913A8CB10008772F9 /* ShareViewController.m */; };
 		5579FA2C13A8CB10008772F9 /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5579FA2A13A8CB10008772F9 /* ShareView.xib */; };
 		55CBE52B13AA1AD200AF1AEB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CBE52A13AA1AD200AF1AEB /* MessageUI.framework */; };
@@ -37,8 +38,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		46384FD213B8C6DF00F76854 /* bing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bing-icon.png"; sourceTree = "<group>"; };
-		46384FD313B8C6DF00F76854 /* google-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon.png"; sourceTree = "<group>"; };
 		463CA14813A641EA00F2F93C /* SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchItem.h; sourceTree = "<group>"; };
 		463CA14913A641EA00F2F93C /* SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchItem.m; sourceTree = "<group>"; };
 		463CA16B13A65F5000F2F93C /* button-icon-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-arrow-left.png"; sourceTree = "<group>"; };
@@ -46,7 +45,10 @@
 		463CA16F13A65F5000F2F93C /* button-icon-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-refresh.png"; sourceTree = "<group>"; };
 		463CA17713A662CD00F2F93C /* button-icon-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-gear.png"; sourceTree = "<group>"; };
 		4678B68E13C0537100FAB03D /* MySearchHDIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MySearchHDIcon.png; sourceTree = SOURCE_ROOT; };
+		46B95AA9144AF861004E0E8E /* duck-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "duck-icon.png"; sourceTree = "<group>"; };
 		46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-globe.png"; sourceTree = "<group>"; };
+		46D75614144B1A1C002C44B8 /* bing-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bing-icon.png"; sourceTree = "<group>"; };
+		46D75615144B1A1C002C44B8 /* google-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-icon.png"; sourceTree = "<group>"; };
 		5579FA2813A8CB10008772F9 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = ../../MySearchHD/MySearchHD/ShareViewController.h; sourceTree = "<group>"; };
 		5579FA2913A8CB10008772F9 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = ../../MySearchHD/MySearchHD/ShareViewController.m; sourceTree = "<group>"; };
 		5579FA2A13A8CB10008772F9 /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShareView.xib; path = ../../MySearchHD/MySearchHD/ShareView.xib; sourceTree = "<group>"; };
@@ -101,8 +103,9 @@
 				463CA16F13A65F5000F2F93C /* button-icon-refresh.png */,
 				463CA17713A662CD00F2F93C /* button-icon-gear.png */,
 				46D1E85813B63E5B004B1AA6 /* button-icon-globe.png */,
-				46384FD213B8C6DF00F76854 /* bing-icon.png */,
-				46384FD313B8C6DF00F76854 /* google-icon.png */,
+				46D75614144B1A1C002C44B8 /* bing-icon.png */,
+				46B95AA9144AF861004E0E8E /* duck-icon.png */,
+				46D75615144B1A1C002C44B8 /* google-icon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 		55DBAD8613A611B900D370AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "타임교육";
 			};
 			buildConfigurationList = 55DBAD8913A611B900D370AC /* Build configuration list for PBXProject "MySearchHD" */;
@@ -234,9 +238,10 @@
 				463CA17913A662CD00F2F93C /* button-icon-gear.png in Resources */,
 				5579FA2C13A8CB10008772F9 /* ShareView.xib in Resources */,
 				46D1E85913B63E5B004B1AA6 /* button-icon-globe.png in Resources */,
-				46384FD413B8C6DF00F76854 /* bing-icon.png in Resources */,
-				46384FD513B8C6DF00F76854 /* google-icon.png in Resources */,
 				4678B68F13C0537100FAB03D /* MySearchHDIcon.png in Resources */,
+				46B95AAC144AF861004E0E8E /* duck-icon.png in Resources */,
+				46D75616144B1A1C002C44B8 /* bing-icon.png in Resources */,
+				46D75617144B1A1C002C44B8 /* google-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +296,8 @@
 		55DBADB613A611B900D370AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -301,6 +306,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -309,15 +315,14 @@
 		55DBADB713A611B900D370AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chang Ho Lee";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27EFC3A0-35D3-41F3-96F3-1C848DAC724C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -331,7 +336,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySearchHD/MySearchHD-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MySearchHD/MySearchHD-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esed.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -344,7 +351,9 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySearchHD/MySearchHD-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MySearchHD/MySearchHD-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esed.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
