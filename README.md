@@ -1,10 +1,10 @@
-### MySearchHD
+# MySearchHD
 
-#### Repository Info.
+### Repository Info.
 * old style objective-C sources
 * no ARC, support iOS 4.2
 
-#### Game Info.
+### Game Info.
 * "Help your web search!" 
 
 #### [Description]
@@ -19,5 +19,5 @@
 #### [Share]
 * You can send search results to Safari browser on iPad and share them by email
 
-##### [AppStore]
+#### [AppStore]
 * Link : [MySearchHD](https://itunes.apple.com/app/mysearchhd-google-bing-advanced/id452212329?mt=8)
